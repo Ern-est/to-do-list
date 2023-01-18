@@ -1,13 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-import Home from './views/home';
-
+import React from 'react';
+import Home from './Views/Home';
 function App() {
   return (
     <div className="App">
-     <>
-     <Home/>
-     </>
+      <>
+      <Home />
+      </>
     </div>
   );
 }
